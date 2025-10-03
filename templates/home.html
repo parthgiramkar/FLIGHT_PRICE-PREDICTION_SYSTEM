@@ -1,17 +1,22 @@
 {% extends "layout.html" %}
 
-
 {% block content %}
-
-
-<h2> Flight Prices Prediction Model based on Machine Learning
+<div id="home-card" class="content-card text-center p-5">
+    <h1 class="display-4 fw-bold">
+        Flight Price Prediction
+    </h1>
+    <p class="lead my-4" style="color: var(--text-secondary);">
+        Welcome! Use our machine learning model to predict flight prices with high accuracy. 
+        Provide the details of your journey to get an estimated fare.
+    </p>
+    <hr class="my-4" style="border-top: 1px solid var(--border-color);">
+    <p>
+        Ready to find out your flight's price?
+    </p>
     <div>
-        <p><a href="{{ url_for('pred')}}">Click Here !</a></p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('pred') }}" role="button">
+            ✈️ Get Started
+        </a>
     </div>
-</h2>
-
-
-
+</div>
 {% endblock content %}
-
- 
