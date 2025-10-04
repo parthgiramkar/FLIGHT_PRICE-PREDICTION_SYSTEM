@@ -1,3 +1,3 @@
-# FLask Course - Project
+# Flask Course - Project
 
 
