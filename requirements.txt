@@ -1,6 +1,6 @@
 flask
 flask-wtf
 pandas
-scikit-learn
+scikit-learn==1.6.1
 gunicorn
 feature_engine
